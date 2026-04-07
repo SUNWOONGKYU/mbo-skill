@@ -223,7 +223,6 @@ Then use `/mbo` in Claude Code.
 
 - **Claude Code** (CLI, Desktop, Web)
 - Works with any project type
-- Integrates with SAL Grid Dev Suite (Stage 시작 전 MBO = 섹션 6.0)
 
 ---
 
