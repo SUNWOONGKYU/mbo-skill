@@ -225,9 +225,3 @@ Edit → 하단에 "## 결과 보고" 섹션 추가
 
 ---
 
-## SAL Grid 연동
-
-SAL Grid Dev Suite 프로젝트에서 `/mbo`를 실행하면:
-- Stage 시작 전 MBO = 섹션 6.0 프로세스와 동일
-- Stage Gate 리포트 = `/mbo report` 결과를 섹션 8.2에 포함
-- MBO 파일이 Stage Gate 검증의 목표 달성 여부 근거 자료가 됨
