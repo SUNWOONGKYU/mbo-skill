@@ -4,7 +4,6 @@
   <desc id="d">프롬프트·컨텍스트·에이전트·하네스·루프 엔지니어링은 모두 '어떻게(HOW)' 축의 상승이고, MBO 엔지니어링은 '무엇을·왜·다 됐는가(WHAT·WHY·DONE)' 축의 정점이다. 정점이라서 다섯을 수단으로 품는다.</desc>
   <rect x="0" y="0" width="1080" height="1480" fill="#f1f5f9"/>
   <defs>
-    <marker id="ah" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#475569"/></marker>
     <marker id="ahg" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#fbbf24"/></marker>
     <marker id="ahi" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#a855f7"/></marker>
     <marker id="ahe" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="16" refX="9" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 Z" fill="#cbd5e1"/></marker>
@@ -43,73 +42,67 @@
   <line x1="70" y1="712" x2="1016" y2="476" stroke="#cbd5e1" stroke-width="16" stroke-linecap="round" marker-end="url(#ahe)"/>
   <text x="150" y="700" fill="#64748b" font-size="21" font-weight="bold" transform="rotate(-14 150 700)">진화 →</text>
 
-  <!-- 5 박스 (계단) -->
+  <!-- 5 박스 (계단) — 전부 'X 엔지니어링' -->
   <rect x="30" y="600" width="200" height="92" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
   <rect x="30" y="600" width="12" height="92" rx="6" fill="#64748b"/>
   <text x="60" y="640" fill="#334155" font-size="24" font-weight="bold">프롬프트</text>
-  <text x="60" y="670" fill="#0f172a" font-size="18">지시문</text>
+  <text x="60" y="670" fill="#64748b" font-size="17">엔지니어링</text>
 
   <rect x="240" y="562" width="200" height="92" rx="13" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
   <rect x="240" y="562" width="12" height="92" rx="6" fill="#3b82f6"/>
   <text x="270" y="602" fill="#1d4ed8" font-size="24" font-weight="bold">컨텍스트</text>
-  <text x="270" y="632" fill="#0f172a" font-size="18">정보 환경</text>
+  <text x="270" y="632" fill="#3b82f6" font-size="17">엔지니어링</text>
 
   <rect x="450" y="524" width="200" height="92" rx="13" fill="#e0e7ff" stroke="#a5b4fc" stroke-width="1.5"/>
   <rect x="450" y="524" width="12" height="92" rx="6" fill="#6366f1"/>
   <text x="480" y="564" fill="#4338ca" font-size="24" font-weight="bold">에이전트</text>
-  <text x="480" y="594" fill="#0f172a" font-size="18">자율 · 도구</text>
+  <text x="480" y="594" fill="#6366f1" font-size="17">엔지니어링</text>
 
   <rect x="660" y="486" width="200" height="92" rx="13" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
   <rect x="660" y="486" width="12" height="92" rx="6" fill="#8b5cf6"/>
   <text x="690" y="526" fill="#6d28d9" font-size="24" font-weight="bold">하네스</text>
-  <text x="690" y="556" fill="#0f172a" font-size="18">신뢰성 · 가드</text>
+  <text x="690" y="556" fill="#8b5cf6" font-size="17">엔지니어링</text>
 
   <rect x="870" y="448" width="200" height="92" rx="13" fill="#f5f3ff" stroke="#d8b4fe" stroke-width="1.5"/>
   <rect x="870" y="448" width="12" height="92" rx="6" fill="#a855f7"/>
   <text x="900" y="488" fill="#7e22ce" font-size="24" font-weight="bold">루프</text>
-  <text x="900" y="518" fill="#0f172a" font-size="18">반복 · 종료</text>
+  <text x="900" y="518" fill="#a855f7" font-size="17">엔지니어링</text>
 
   <text x="540" y="772" text-anchor="middle" fill="#475569" font-size="18">다섯 모두 "어떻게 작동시키나"에 답한다 — "무엇을 향해·다 됐는가"엔 답하지 않는다</text>
 
-  <!-- ===== 통합 매핑 ===== -->
+  <!-- ===== 통합 매핑 (5 엔지니어링) ===== -->
   <rect x="0" y="800" width="1080" height="50" fill="#ede9fe"/>
   <text x="40" y="834" fill="#6d28d9" font-size="24" font-weight="bold">이 다섯은 MBO 안에서 '수단'이 된다 — 정점이라서 품는다</text>
 
-  <!-- 매핑 6행 -->
-  <rect x="50" y="868" width="980" height="64" rx="11" fill="#eff6ff" stroke="#bfdbfe"/>
-  <rect x="50" y="868" width="10" height="64" rx="5" fill="#3b82f6"/>
-  <text x="80" y="896" fill="#1d4ed8" font-size="19" font-weight="bold">컨텍스트 엔지니어링</text>
-  <text x="80" y="921" fill="#0f172a" font-size="18">→ 스무고개 · AS-IS 조사 · 목표 컨텍스트 복원</text>
+  <rect x="50" y="868" width="980" height="70" rx="11" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <rect x="50" y="868" width="10" height="70" rx="5" fill="#64748b"/>
+  <text x="80" y="898" fill="#334155" font-size="19" font-weight="bold">프롬프트 엔지니어링</text>
+  <text x="80" y="924" fill="#0f172a" font-size="18">→ 목표서의 지시를 정확한 언어로 전달</text>
 
-  <rect x="50" y="942" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="942" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="970" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 검증 루프</text>
-  <text x="80" y="995" fill="#0f172a" font-size="18">→ 완료·검증 게이트 + 점수평가(100점까지)</text>
+  <rect x="50" y="948" width="980" height="70" rx="11" fill="#eff6ff" stroke="#bfdbfe"/>
+  <rect x="50" y="948" width="10" height="70" rx="5" fill="#3b82f6"/>
+  <text x="80" y="978" fill="#1d4ed8" font-size="19" font-weight="bold">컨텍스트 엔지니어링</text>
+  <text x="80" y="1004" fill="#0f172a" font-size="18">→ 스무고개 · AS-IS 조사 · 목표 컨텍스트 복원</text>
 
-  <rect x="50" y="1016" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1016" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1044" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 컨텍스트/메모리</text>
-  <text x="80" y="1069" fill="#0f172a" font-size="18">→ 목표서를 파일로 저장 (목표 복원)</text>
+  <rect x="50" y="1028" width="980" height="70" rx="11" fill="#e0e7ff" stroke="#c7d2fe"/>
+  <rect x="50" y="1028" width="10" height="70" rx="5" fill="#6366f1"/>
+  <text x="80" y="1058" fill="#4338ca" font-size="19" font-weight="bold">에이전트 엔지니어링</text>
+  <text x="80" y="1084" fill="#0f172a" font-size="18">→ 합의된 목표를 자율로 실행하는 주체</text>
 
-  <rect x="50" y="1090" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1090" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1118" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 가드레일</text>
-  <text x="80" y="1143" fill="#0f172a" font-size="18">→ PO 승인 게이트 + 자기검증 금지(별도 주체)</text>
+  <rect x="50" y="1108" width="980" height="70" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
+  <rect x="50" y="1108" width="10" height="70" rx="5" fill="#8b5cf6"/>
+  <text x="80" y="1138" fill="#6d28d9" font-size="19" font-weight="bold">하네스 엔지니어링</text>
+  <text x="80" y="1164" fill="#0f172a" font-size="18">→ 검증 게이트 · 메모리 · 가드레일 · 관측 · 라우팅</text>
 
-  <rect x="50" y="1164" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1164" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1192" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 관측 / 라우팅</text>
-  <text x="80" y="1217" fill="#0f172a" font-size="18">→ KPI 실측 · 결과 보고 · 스킬 라우팅</text>
-
-  <rect x="50" y="1238" width="980" height="64" rx="11" fill="#f5f3ff" stroke="#e9d5ff"/>
-  <rect x="50" y="1238" width="10" height="64" rx="5" fill="#a855f7"/>
-  <text x="80" y="1266" fill="#7e22ce" font-size="19" font-weight="bold">루프 엔지니어링</text>
-  <text x="80" y="1291" fill="#0f172a" font-size="18">→ 종료조건(완료기준·승인·100점)을 1급으로</text>
+  <rect x="50" y="1188" width="980" height="70" rx="11" fill="#f5f3ff" stroke="#e9d5ff"/>
+  <rect x="50" y="1188" width="10" height="70" rx="5" fill="#a855f7"/>
+  <text x="80" y="1218" fill="#7e22ce" font-size="19" font-weight="bold">루프 엔지니어링</text>
+  <text x="80" y="1244" fill="#0f172a" font-size="18">→ 종료조건(완료기준·승인·100점)을 1급으로</text>
 
   <!-- 결론 -->
-  <rect x="50" y="1326" width="980" height="84" rx="13" fill="#1e1b4b" stroke="#fbbf24" stroke-width="2"/>
-  <text x="540" y="1361" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="bold">사다리 천장에 다다를수록, 업계는 '관리(MBO)'로 수렴한다.</text>
-  <text x="540" y="1390" text-anchor="middle" fill="#e0e7ff" font-size="17">드러커(1954)가 답을 적어뒀다 — 이제 엔지니어링하면 된다.</text>
+  <rect x="50" y="1294" width="980" height="84" rx="13" fill="#1e1b4b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="540" y="1329" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="bold">사다리 천장에 다다를수록, 업계는 '관리(MBO)'로 수렴한다.</text>
+  <text x="540" y="1358" text-anchor="middle" fill="#e0e7ff" font-size="17">드러커(1954)가 답을 적어뒀다 — 이제 엔지니어링하면 된다.</text>
 
-  <text x="540" y="1450" text-anchor="middle" fill="#64748b" font-size="16">"과정은 자율, 목표는 합의·필수"  ·  github.com/SUNWOONGKYU/mbo-skill</text>
+  <text x="540" y="1430" text-anchor="middle" fill="#64748b" font-size="16">"과정은 자율, 목표는 합의·필수"  ·  github.com/SUNWOONGKYU/mbo-skill</text>
 </svg>
