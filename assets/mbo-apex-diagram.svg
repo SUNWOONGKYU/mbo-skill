@@ -7,6 +7,7 @@
     <marker id="ah" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#475569"/></marker>
     <marker id="ahg" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#fbbf24"/></marker>
     <marker id="ahi" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#a855f7"/></marker>
+    <marker id="ahe" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="16" refX="9" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 Z" fill="#cbd5e1"/></marker>
   </defs>
 
   <!-- 헤더 -->
@@ -26,9 +27,9 @@
   <text x="755" y="295" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="bold">검증된 결과</text>
 
   <!-- 지휘(아래) -->
-  <line x1="300" y1="318" x2="300" y2="430" stroke="#fbbf24" stroke-width="3.5" marker-end="url(#ahg)"/>
-  <text x="288" y="372" text-anchor="end" fill="#b45309" font-size="17" font-weight="bold">지휘 · 통합 ↓</text>
-  <text x="288" y="394" text-anchor="end" fill="#92400e" font-size="15">정점이라서 품는다</text>
+  <line x1="270" y1="318" x2="270" y2="430" stroke="#fbbf24" stroke-width="3.5" marker-end="url(#ahg)"/>
+  <text x="258" y="372" text-anchor="end" fill="#b45309" font-size="17" font-weight="bold">지휘 · 통합 ↓</text>
+  <text x="258" y="394" text-anchor="end" fill="#92400e" font-size="15">정점이라서 품는다</text>
 
   <!-- 수렴(위) -->
   <path d="M905,438 C905,380 850,348 822,320" fill="none" stroke="#a855f7" stroke-width="3" stroke-dasharray="7,5" marker-end="url(#ahi)"/>
@@ -36,82 +37,79 @@
   <text x="922" y="406" fill="#7e22ce" font-size="15">천장 = 관리</text>
 
   <!-- ===== HOW 사다리 ===== -->
-  <text x="40" y="420" fill="#334155" font-size="25" font-weight="bold">어떻게(HOW) 축 — 메커니즘 사다리 (진화 →)</text>
+  <text x="40" y="414" fill="#334155" font-size="25" font-weight="bold">어떻게(HOW) 축 — 메커니즘 사다리</text>
 
-  <!-- 5단 계단 -->
-  <rect x="34" y="664" width="196" height="86" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
-  <rect x="34" y="664" width="11" height="86" rx="5" fill="#64748b"/>
-  <text x="62" y="702" fill="#334155" font-size="23" font-weight="bold">프롬프트</text>
-  <text x="62" y="732" fill="#0f172a" font-size="17">지시문</text>
+  <!-- 진화 경사 가이드 (박스 뒤) -->
+  <line x1="70" y1="712" x2="1016" y2="476" stroke="#cbd5e1" stroke-width="16" stroke-linecap="round" marker-end="url(#ahe)"/>
+  <text x="150" y="700" fill="#64748b" font-size="21" font-weight="bold" transform="rotate(-14 150 700)">진화 →</text>
 
-  <rect x="246" y="609" width="196" height="86" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
-  <rect x="246" y="609" width="11" height="86" rx="5" fill="#3b82f6"/>
-  <text x="274" y="647" fill="#1d4ed8" font-size="23" font-weight="bold">컨텍스트</text>
-  <text x="274" y="677" fill="#0f172a" font-size="17">정보 환경</text>
+  <!-- 5 박스 (계단) -->
+  <rect x="30" y="600" width="200" height="92" rx="13" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="30" y="600" width="12" height="92" rx="6" fill="#64748b"/>
+  <text x="60" y="640" fill="#334155" font-size="24" font-weight="bold">프롬프트</text>
+  <text x="60" y="670" fill="#0f172a" font-size="18">지시문</text>
 
-  <rect x="458" y="554" width="196" height="86" rx="12" fill="#e0e7ff" stroke="#a5b4fc" stroke-width="1.5"/>
-  <rect x="458" y="554" width="11" height="86" rx="5" fill="#6366f1"/>
-  <text x="486" y="592" fill="#4338ca" font-size="23" font-weight="bold">에이전트</text>
-  <text x="486" y="622" fill="#0f172a" font-size="17">자율 · 도구</text>
+  <rect x="240" y="562" width="200" height="92" rx="13" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <rect x="240" y="562" width="12" height="92" rx="6" fill="#3b82f6"/>
+  <text x="270" y="602" fill="#1d4ed8" font-size="24" font-weight="bold">컨텍스트</text>
+  <text x="270" y="632" fill="#0f172a" font-size="18">정보 환경</text>
 
-  <rect x="670" y="499" width="196" height="86" rx="12" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
-  <rect x="670" y="499" width="11" height="86" rx="5" fill="#8b5cf6"/>
-  <text x="698" y="537" fill="#6d28d9" font-size="23" font-weight="bold">하네스</text>
-  <text x="698" y="567" fill="#0f172a" font-size="17">신뢰성 · 가드</text>
+  <rect x="450" y="524" width="200" height="92" rx="13" fill="#e0e7ff" stroke="#a5b4fc" stroke-width="1.5"/>
+  <rect x="450" y="524" width="12" height="92" rx="6" fill="#6366f1"/>
+  <text x="480" y="564" fill="#4338ca" font-size="24" font-weight="bold">에이전트</text>
+  <text x="480" y="594" fill="#0f172a" font-size="18">자율 · 도구</text>
 
-  <rect x="850" y="444" width="196" height="86" rx="12" fill="#f5f3ff" stroke="#d8b4fe" stroke-width="1.5"/>
-  <rect x="850" y="444" width="11" height="86" rx="5" fill="#a855f7"/>
-  <text x="878" y="482" fill="#7e22ce" font-size="23" font-weight="bold">루프</text>
-  <text x="878" y="512" fill="#0f172a" font-size="17">반복 · 종료</text>
+  <rect x="660" y="486" width="200" height="92" rx="13" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <rect x="660" y="486" width="12" height="92" rx="6" fill="#8b5cf6"/>
+  <text x="690" y="526" fill="#6d28d9" font-size="24" font-weight="bold">하네스</text>
+  <text x="690" y="556" fill="#0f172a" font-size="18">신뢰성 · 가드</text>
 
-  <!-- 상승 화살표 -->
-  <line x1="232" y1="694" x2="244" y2="660" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
-  <line x1="444" y1="639" x2="456" y2="605" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
-  <line x1="656" y1="584" x2="668" y2="550" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
-  <line x1="848" y1="529" x2="848" y2="529" stroke="#475569" stroke-width="3"/>
-  <line x1="868" y1="529" x2="858" y2="500" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
+  <rect x="870" y="448" width="200" height="92" rx="13" fill="#f5f3ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <rect x="870" y="448" width="12" height="92" rx="6" fill="#a855f7"/>
+  <text x="900" y="488" fill="#7e22ce" font-size="24" font-weight="bold">루프</text>
+  <text x="900" y="518" fill="#0f172a" font-size="18">반복 · 종료</text>
 
-  <text x="540" y="788" text-anchor="middle" fill="#475569" font-size="18">다섯 모두 "어떻게 작동시키나"에 답한다 — "무엇을 향해·다 됐는가"엔 답하지 않는다</text>
+  <text x="540" y="772" text-anchor="middle" fill="#475569" font-size="18">다섯 모두 "어떻게 작동시키나"에 답한다 — "무엇을 향해·다 됐는가"엔 답하지 않는다</text>
 
   <!-- ===== 통합 매핑 ===== -->
-  <rect x="0" y="812" width="1080" height="50" fill="#ede9fe"/>
-  <text x="40" y="846" fill="#6d28d9" font-size="24" font-weight="bold">이 다섯은 MBO 안에서 '수단'이 된다 — 정점이라서 품는다</text>
+  <rect x="0" y="800" width="1080" height="50" fill="#ede9fe"/>
+  <text x="40" y="834" fill="#6d28d9" font-size="24" font-weight="bold">이 다섯은 MBO 안에서 '수단'이 된다 — 정점이라서 품는다</text>
 
   <!-- 매핑 6행 -->
-  <rect x="50" y="880" width="980" height="64" rx="11" fill="#eff6ff" stroke="#bfdbfe"/>
-  <rect x="50" y="880" width="10" height="64" rx="5" fill="#3b82f6"/>
-  <text x="80" y="908" fill="#1d4ed8" font-size="19" font-weight="bold">컨텍스트 엔지니어링</text>
-  <text x="80" y="933" fill="#0f172a" font-size="18">→ 스무고개 · AS-IS 조사 · 목표 컨텍스트 복원</text>
+  <rect x="50" y="868" width="980" height="64" rx="11" fill="#eff6ff" stroke="#bfdbfe"/>
+  <rect x="50" y="868" width="10" height="64" rx="5" fill="#3b82f6"/>
+  <text x="80" y="896" fill="#1d4ed8" font-size="19" font-weight="bold">컨텍스트 엔지니어링</text>
+  <text x="80" y="921" fill="#0f172a" font-size="18">→ 스무고개 · AS-IS 조사 · 목표 컨텍스트 복원</text>
 
-  <rect x="50" y="954" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="954" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="982" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 검증 루프</text>
-  <text x="80" y="1007" fill="#0f172a" font-size="18">→ 완료·검증 게이트 + 점수평가(100점까지)</text>
+  <rect x="50" y="942" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
+  <rect x="50" y="942" width="10" height="64" rx="5" fill="#8b5cf6"/>
+  <text x="80" y="970" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 검증 루프</text>
+  <text x="80" y="995" fill="#0f172a" font-size="18">→ 완료·검증 게이트 + 점수평가(100점까지)</text>
 
-  <rect x="50" y="1028" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1028" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1056" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 컨텍스트/메모리</text>
-  <text x="80" y="1081" fill="#0f172a" font-size="18">→ 목표서를 파일로 저장 (목표 복원)</text>
+  <rect x="50" y="1016" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
+  <rect x="50" y="1016" width="10" height="64" rx="5" fill="#8b5cf6"/>
+  <text x="80" y="1044" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 컨텍스트/메모리</text>
+  <text x="80" y="1069" fill="#0f172a" font-size="18">→ 목표서를 파일로 저장 (목표 복원)</text>
 
-  <rect x="50" y="1102" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1102" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1130" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 가드레일</text>
-  <text x="80" y="1155" fill="#0f172a" font-size="18">→ PO 승인 게이트 + 자기검증 금지(별도 주체)</text>
+  <rect x="50" y="1090" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
+  <rect x="50" y="1090" width="10" height="64" rx="5" fill="#8b5cf6"/>
+  <text x="80" y="1118" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 가드레일</text>
+  <text x="80" y="1143" fill="#0f172a" font-size="18">→ PO 승인 게이트 + 자기검증 금지(별도 주체)</text>
 
-  <rect x="50" y="1176" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
-  <rect x="50" y="1176" width="10" height="64" rx="5" fill="#8b5cf6"/>
-  <text x="80" y="1204" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 관측 / 라우팅</text>
-  <text x="80" y="1229" fill="#0f172a" font-size="18">→ KPI 실측 · 결과 보고 · 스킬 라우팅</text>
+  <rect x="50" y="1164" width="980" height="64" rx="11" fill="#ede9fe" stroke="#ddd6fe"/>
+  <rect x="50" y="1164" width="10" height="64" rx="5" fill="#8b5cf6"/>
+  <text x="80" y="1192" fill="#6d28d9" font-size="19" font-weight="bold">하네스 · 관측 / 라우팅</text>
+  <text x="80" y="1217" fill="#0f172a" font-size="18">→ KPI 실측 · 결과 보고 · 스킬 라우팅</text>
 
-  <rect x="50" y="1250" width="980" height="64" rx="11" fill="#f5f3ff" stroke="#e9d5ff"/>
-  <rect x="50" y="1250" width="10" height="64" rx="5" fill="#a855f7"/>
-  <text x="80" y="1278" fill="#7e22ce" font-size="19" font-weight="bold">루프 엔지니어링</text>
-  <text x="80" y="1303" fill="#0f172a" font-size="18">→ 종료조건(완료기준·승인·100점)을 1급으로</text>
+  <rect x="50" y="1238" width="980" height="64" rx="11" fill="#f5f3ff" stroke="#e9d5ff"/>
+  <rect x="50" y="1238" width="10" height="64" rx="5" fill="#a855f7"/>
+  <text x="80" y="1266" fill="#7e22ce" font-size="19" font-weight="bold">루프 엔지니어링</text>
+  <text x="80" y="1291" fill="#0f172a" font-size="18">→ 종료조건(완료기준·승인·100점)을 1급으로</text>
 
   <!-- 결론 -->
-  <rect x="50" y="1338" width="980" height="84" rx="13" fill="#1e1b4b" stroke="#fbbf24" stroke-width="2"/>
-  <text x="540" y="1373" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="bold">사다리 천장에 다다를수록, 업계는 '관리(MBO)'로 수렴한다.</text>
-  <text x="540" y="1402" text-anchor="middle" fill="#e0e7ff" font-size="17">드러커(1954)가 답을 적어뒀다 — 이제 엔지니어링하면 된다.</text>
+  <rect x="50" y="1326" width="980" height="84" rx="13" fill="#1e1b4b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="540" y="1361" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="bold">사다리 천장에 다다를수록, 업계는 '관리(MBO)'로 수렴한다.</text>
+  <text x="540" y="1390" text-anchor="middle" fill="#e0e7ff" font-size="17">드러커(1954)가 답을 적어뒀다 — 이제 엔지니어링하면 된다.</text>
 
-  <text x="540" y="1458" text-anchor="middle" fill="#64748b" font-size="16">"과정은 자율, 목표는 합의·필수"  ·  github.com/SUNWOONGKYU/mbo-skill</text>
+  <text x="540" y="1450" text-anchor="middle" fill="#64748b" font-size="16">"과정은 자율, 목표는 합의·필수"  ·  github.com/SUNWOONGKYU/mbo-skill</text>
 </svg>
