@@ -96,6 +96,8 @@ curl -o ~/.claude/skills/mbo/SKILL.md \
   https://raw.githubusercontent.com/SUNWOONGKYU/mbo-skill/main/SKILL.md
 ```
 
+> **Windows (PowerShell):** `mkdir -p` 대신 `New-Item -ItemType Directory -Force ~/.claude/skills/mbo` 를 쓰세요 (이후 `curl` 명령은 동일).
+
 ### Option 2: Clone
 
 ```bash
