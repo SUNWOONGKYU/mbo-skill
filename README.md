@@ -227,6 +227,21 @@ Then use `/mbo` in Claude Code.
 
 ---
 
+## Diagrams & Deep Dive
+
+> **에세이:** [MBO 엔지니어링 — 메커니즘 사다리의 천장에서 만나는 것](docs/mbo-engineering.md)
+> 프롬프트 → 컨텍스트 → 에이전트 → 하네스 → 루프 엔지니어링은 모두 '어떻게(HOW)' 축이고, MBO는 그 정점(WHAT·WHY·DONE)이다 — 정점이라서 그 다섯을 수단으로 품는다.
+
+**MBO 스킬 — 관계도 + 흐름도**
+
+![MBO 스킬 관계도 + 흐름도](assets/mbo-skill-diagram.png)
+
+**AI 엔지니어링의 진화와 그 정점 — MBO**
+
+![AI 엔지니어링의 정점 — MBO](assets/mbo-apex-diagram.png)
+
+---
+
 ## Contributing
 
 이 스킬이 도움이 됐다면:
