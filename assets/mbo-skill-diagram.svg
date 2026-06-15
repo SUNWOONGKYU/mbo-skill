@@ -77,9 +77,10 @@
   <text x="890" y="434" fill="#b91c1c" font-size="18">자기검증 금지</text>
   <text x="890" y="478" fill="#15803d" font-size="17" font-weight="bold">실제 실행 확인</text>
 
-  <!-- 결과 보고 루프백 -->
-  <path d="M962,500 C962,556 122,556 122,502" fill="none" stroke="#4338ca" stroke-width="3" stroke-dasharray="7,5" marker-end="url(#ahi)"/>
-  <text x="540" y="540" text-anchor="middle" fill="#3730a3" font-size="18" font-weight="bold">결과는 목표 대비 보고 → PO 최종 확인</text>
+  <!-- 결과 보고 루프백 (점선은 글자 아래로, 글자엔 배경 깔아 분리) -->
+  <path d="M962,502 C962,596 122,596 122,504" fill="none" stroke="#4338ca" stroke-width="3" stroke-dasharray="7,5" marker-end="url(#ahi)"/>
+  <rect x="318" y="521" width="444" height="32" rx="8" fill="#f1f5f9"/>
+  <text x="540" y="544" text-anchor="middle" fill="#3730a3" font-size="18" font-weight="bold">결과는 목표 대비 보고 → PO 최종 확인</text>
 
   <text x="540" y="612" text-anchor="middle" fill="#475569" font-size="19">위 구성요소가 일하는 순서를 펼친 것이 ↓ <tspan font-weight="bold" fill="#4338ca">② 흐름도</tspan></text>
 
