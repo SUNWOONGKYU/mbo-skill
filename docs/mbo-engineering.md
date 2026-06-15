@@ -38,4 +38,18 @@
 
 ---
 
-MBO 스킬: [SKILL.md](../SKILL.md) · 저장소 [github.com/SUNWOONGKYU/mbo-skill](https://github.com/SUNWOONGKYU/mbo-skill)
+이 방법론은 **mbo-천상(天上)** 스킬로 구현해 공개했다 — 모든 작업의 최상위에서 목표·승인·검증을 책임진다는 뜻의 이름이다.
+
+## 다운로드 / 설치 (Claude Code 스킬 · 무료·오픈소스)
+
+저장소: [github.com/SUNWOONGKYU/mbo-skill](https://github.com/SUNWOONGKYU/mbo-skill) · 상세 설치는 [README](../README.md#installation)
+
+```bash
+mkdir -p ~/.claude/skills/mbo
+curl -o ~/.claude/skills/mbo/SKILL.md \
+  https://raw.githubusercontent.com/SUNWOONGKYU/mbo-skill/main/SKILL.md
+# 또는 git clone 후 SKILL.md 를 ~/.claude/skills/mbo/ 로 복사
+```
+> Windows(PowerShell): `mkdir -p` 대신 `New-Item -ItemType Directory -Force ~/.claude/skills/mbo`
+
+이후 Claude Code에서 `/mbo` 로 실행한다.
