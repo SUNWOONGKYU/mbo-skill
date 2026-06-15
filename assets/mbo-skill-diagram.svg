@@ -1,165 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1500" viewBox="0 0 1080 1500" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1580" viewBox="0 0 1080 1580" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" role="img" aria-labelledby="t d">
   <title id="t">MBO 스킬 — 관계도 + 흐름도</title>
-  <desc id="d">MBO(목표에 의한 관리) 스킬의 구성요소 관계도와 PHASE 1~3 시간순 흐름도. PO와 mbo-천상이 목표를 합의하고, 방법은 AI가 자율로 실행하며, 산출물을 별도 주체가 검증해 목표 대비 결과를 보고하는 구조. 게이트 2곳(PO 승인·산출물 검증)과 색으로 구분한 PHASE(파랑 목표정의·보라 실행·초록 결과보고).</desc>
-  <rect x="0" y="0" width="1080" height="1500" fill="#f1f5f9"/>
+  <desc id="d">MBO 스킬의 구성요소 관계도와 PHASE 1~3 흐름도. PO와 mbo-천상이 목표를 합의하고, 방법은 AI 자율로 실행하며, 별도 주체가 검증해 목표 대비 결과를 보고한다. 게이트 2곳(PO 승인·산출물 검증).</desc>
+  <rect x="0" y="0" width="1080" height="1580" fill="#f1f5f9"/>
   <defs>
-    <marker id="ah" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#475569"/></marker>
-    <marker id="ahr" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#b91c1c"/></marker>
-    <marker id="ahi" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#4338ca"/></marker>
+    <marker id="ah" markerUnits="userSpaceOnUse" markerWidth="15" markerHeight="13" refX="13" refY="6.5" orient="auto"><path d="M0,0 L13,6.5 L0,13 Z" fill="#475569"/></marker>
+    <marker id="ahr" markerUnits="userSpaceOnUse" markerWidth="15" markerHeight="13" refX="13" refY="6.5" orient="auto"><path d="M0,0 L13,6.5 L0,13 Z" fill="#b91c1c"/></marker>
+    <marker id="ahi" markerUnits="userSpaceOnUse" markerWidth="15" markerHeight="13" refX="13" refY="6.5" orient="auto"><path d="M0,0 L13,6.5 L0,13 Z" fill="#4338ca"/></marker>
   </defs>
 
   <!-- 헤더 -->
-  <rect x="0" y="0" width="1080" height="120" fill="#0f172a"/>
-  <text x="540" y="54" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="bold">MBO 스킬 — 관계도 + 흐름도</text>
-  <text x="540" y="94" text-anchor="middle" fill="#93c5fd" font-size="19">목표 합의 · 자율 실행 · 결과 검증  (PO 승인·별도 검증 게이트)</text>
+  <rect x="0" y="0" width="1080" height="130" fill="#0f172a"/>
+  <text x="540" y="58" text-anchor="middle" fill="#ffffff" font-size="38" font-weight="bold">MBO 스킬 — 관계도 + 흐름도</text>
+  <text x="540" y="102" text-anchor="middle" fill="#93c5fd" font-size="21">목표 합의 · 자율 실행 · 결과 검증</text>
 
-  <!-- 범례 (색 = PHASE 구분 + 게이트) -->
-  <rect x="40" y="134" width="14" height="14" rx="3" fill="#eff6ff" stroke="#93c5fd"/>
-  <text x="62" y="146" fill="#1d4ed8" font-size="14">PHASE 1 · 목표 정의</text>
-  <rect x="250" y="134" width="14" height="14" rx="3" fill="#f5f3ff" stroke="#c4b5fd"/>
-  <text x="272" y="146" fill="#6d28d9" font-size="14">PHASE 2 · 실행</text>
-  <rect x="430" y="134" width="14" height="14" rx="3" fill="#f0fdf4" stroke="#86efac"/>
-  <text x="452" y="146" fill="#15803d" font-size="14">PHASE 3 · 결과 보고</text>
-  <rect x="650" y="134" width="14" height="14" rx="3" fill="#fffbeb" stroke="#fcd34d"/>
-  <text x="672" y="146" fill="#92400e" font-size="14">★ 게이트 (PO 승인 · 검증)</text>
+  <!-- 범례 -->
+  <rect x="44" y="150" width="18" height="18" rx="4" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="70" y="165" fill="#1d4ed8" font-size="16">PHASE 1 목표 정의</text>
+  <rect x="290" y="150" width="18" height="18" rx="4" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="316" y="165" fill="#6d28d9" font-size="16">PHASE 2 실행</text>
+  <rect x="500" y="150" width="18" height="18" rx="4" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="526" y="165" fill="#15803d" font-size="16">PHASE 3 결과 보고</text>
+  <rect x="760" y="150" width="18" height="18" rx="4" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="786" y="165" fill="#92400e" font-size="16">★ 게이트</text>
 
-  <!-- ========== ① 관계도 ========== -->
-  <rect x="0" y="166" width="1080" height="46" fill="#ede9fe"/>
-  <text x="40" y="197" fill="#6d28d9" font-size="24" font-weight="bold">① 관계도 — 누가 무엇을 책임지나 (왼 → 오)</text>
+  <!-- ===== ① 관계도 ===== -->
+  <rect x="0" y="192" width="1080" height="52" fill="#ede9fe"/>
+  <text x="40" y="227" fill="#6d28d9" font-size="26" font-weight="bold">① 관계도 — 누가 무엇을 책임지나</text>
 
-  <!-- 1 PO -->
-  <rect x="30" y="280" width="190" height="150" rx="12" fill="#fffbeb" stroke="#fcd34d"/>
-  <rect x="30" y="280" width="10" height="150" rx="5" fill="#f59e0b"/>
-  <text x="56" y="318" fill="#92400e" font-size="19" font-weight="bold">PO (사람)</text>
-  <text x="56" y="352" fill="#0f172a" font-size="15">목표 합의 · 승인</text>
-  <text x="56" y="378" fill="#0f172a" font-size="15">결과 최종 확인</text>
-  <text x="56" y="414" fill="#92400e" font-size="14">★ 개입 길목</text>
+  <!-- 5 박스 (왼 → 오) -->
+  <!-- PO -->
+  <rect x="24" y="316" width="196" height="184" rx="14" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <rect x="24" y="316" width="12" height="184" rx="6" fill="#f59e0b"/>
+  <text x="50" y="362" fill="#92400e" font-size="23" font-weight="bold">PO (사람)</text>
+  <text x="50" y="402" fill="#0f172a" font-size="18">목표 합의</text>
+  <text x="50" y="434" fill="#0f172a" font-size="18">승인 · 결과 확인</text>
+  <text x="50" y="478" fill="#b45309" font-size="17" font-weight="bold">★ 개입 길목</text>
 
-  <line x1="220" y1="355" x2="236" y2="355" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="220" y1="408" x2="232" y2="408" stroke="#475569" stroke-width="3.5" marker-end="url(#ah)"/>
 
-  <!-- 2 mbo-천상 (허브) -->
-  <rect x="238" y="280" width="190" height="150" rx="12" fill="#eef2ff" stroke="#a5b4fc"/>
-  <rect x="238" y="280" width="10" height="150" rx="5" fill="#4338ca"/>
-  <text x="264" y="318" fill="#3730a3" font-size="19" font-weight="bold">mbo-천상</text>
-  <text x="264" y="352" fill="#0f172a" font-size="15">목표·승인·결과</text>
-  <text x="264" y="378" fill="#0f172a" font-size="15">책임 (메타 허브)</text>
-  <text x="264" y="414" fill="#3730a3" font-size="14">방법은 자율 위임</text>
+  <!-- mbo-천상 -->
+  <rect x="234" y="316" width="196" height="184" rx="14" fill="#eef2ff" stroke="#a5b4fc" stroke-width="1.5"/>
+  <rect x="234" y="316" width="12" height="184" rx="6" fill="#4338ca"/>
+  <text x="260" y="362" fill="#3730a3" font-size="23" font-weight="bold">mbo-천상</text>
+  <text x="260" y="402" fill="#0f172a" font-size="18">목표·승인·결과</text>
+  <text x="260" y="434" fill="#0f172a" font-size="18">책임 (허브)</text>
+  <text x="260" y="478" fill="#3730a3" font-size="17" font-weight="bold">방법은 자율 위임</text>
 
-  <line x1="428" y1="355" x2="444" y2="355" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="430" y1="408" x2="442" y2="408" stroke="#475569" stroke-width="3.5" marker-end="url(#ah)"/>
 
-  <!-- 3 실행 수단 -->
-  <rect x="446" y="280" width="190" height="150" rx="12" fill="#f5f3ff" stroke="#c4b5fd"/>
-  <rect x="446" y="280" width="10" height="150" rx="5" fill="#8b5cf6"/>
-  <text x="472" y="318" fill="#6d28d9" font-size="19" font-weight="bold">실행 수단</text>
-  <text x="472" y="352" fill="#0f172a" font-size="15">방법 AI 자율 선택</text>
-  <text x="472" y="378" fill="#0f172a" font-size="15">일반작업 / 패턴</text>
-  <text x="472" y="414" fill="#6d28d9" font-size="14">과정 무간섭</text>
+  <!-- 실행 수단 -->
+  <rect x="444" y="316" width="196" height="184" rx="14" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+  <rect x="444" y="316" width="12" height="184" rx="6" fill="#8b5cf6"/>
+  <text x="470" y="362" fill="#6d28d9" font-size="23" font-weight="bold">실행 수단</text>
+  <text x="470" y="402" fill="#0f172a" font-size="18">방법 AI 자율</text>
+  <text x="470" y="434" fill="#0f172a" font-size="18">일반작업 / 패턴</text>
+  <text x="470" y="478" fill="#6d28d9" font-size="17" font-weight="bold">과정 무간섭</text>
 
-  <line x1="636" y1="355" x2="652" y2="355" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="640" y1="408" x2="652" y2="408" stroke="#475569" stroke-width="3.5" marker-end="url(#ah)"/>
 
-  <!-- 4 산출물 -->
-  <rect x="654" y="280" width="190" height="150" rx="12" fill="#f0f9ff" stroke="#7dd3fc"/>
-  <rect x="654" y="280" width="10" height="150" rx="5" fill="#0ea5e9"/>
-  <text x="680" y="318" fill="#075985" font-size="19" font-weight="bold">산출물</text>
-  <text x="680" y="352" fill="#0f172a" font-size="15">파일·문서·배포</text>
-  <text x="680" y="378" fill="#0f172a" font-size="15">Deliverable 명시</text>
-  <text x="680" y="414" fill="#075985" font-size="14">TO-BE의 실체</text>
+  <!-- 산출물 -->
+  <rect x="654" y="316" width="196" height="184" rx="14" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="1.5"/>
+  <rect x="654" y="316" width="12" height="184" rx="6" fill="#0ea5e9"/>
+  <text x="680" y="362" fill="#075985" font-size="23" font-weight="bold">산출물</text>
+  <text x="680" y="402" fill="#0f172a" font-size="18">파일·문서·배포</text>
+  <text x="680" y="434" fill="#0f172a" font-size="18">Deliverable</text>
+  <text x="680" y="478" fill="#075985" font-size="17" font-weight="bold">TO-BE의 실체</text>
 
-  <line x1="844" y1="355" x2="860" y2="355" stroke="#475569" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="850" y1="408" x2="862" y2="408" stroke="#475569" stroke-width="3.5" marker-end="url(#ah)"/>
 
-  <!-- 5 검증 -->
-  <rect x="862" y="280" width="188" height="150" rx="12" fill="#f0fdf4" stroke="#86efac"/>
-  <rect x="862" y="280" width="10" height="150" rx="5" fill="#16a34a"/>
-  <text x="888" y="318" fill="#15803d" font-size="19" font-weight="bold">검증</text>
-  <text x="888" y="352" fill="#0f172a" font-size="15">별도 주체</text>
-  <text x="888" y="378" fill="#b91c1c" font-size="15">자기검증 금지</text>
-  <text x="888" y="414" fill="#15803d" font-size="14">실제 실행 확인</text>
+  <!-- 검증 -->
+  <rect x="864" y="316" width="196" height="184" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="864" y="316" width="12" height="184" rx="6" fill="#16a34a"/>
+  <text x="890" y="362" fill="#15803d" font-size="23" font-weight="bold">검증</text>
+  <text x="890" y="402" fill="#0f172a" font-size="18">별도 주체</text>
+  <text x="890" y="434" fill="#b91c1c" font-size="18">자기검증 금지</text>
+  <text x="890" y="478" fill="#15803d" font-size="17" font-weight="bold">실제 실행 확인</text>
 
-  <!-- 결과 보고 루프백: 검증 → PO -->
-  <path d="M956,430 C956,498 125,498 125,432" fill="none" stroke="#4338ca" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#ahi)"/>
-  <text x="540" y="476" text-anchor="middle" fill="#3730a3" font-size="15">결과는 목표 대비 보고 → PO 최종 확인 (미달성 = 사유 + 후속 조치)</text>
+  <!-- 결과 보고 루프백 -->
+  <path d="M962,500 C962,556 122,556 122,502" fill="none" stroke="#4338ca" stroke-width="3" stroke-dasharray="7,5" marker-end="url(#ahi)"/>
+  <text x="540" y="540" text-anchor="middle" fill="#3730a3" font-size="18" font-weight="bold">결과는 목표 대비 보고 → PO 최종 확인</text>
 
-  <!-- 관계도 ↔ 흐름도 연결 -->
-  <text x="540" y="588" text-anchor="middle" fill="#475569" font-size="17">위 구성요소가 일하는 순서를 펼친 것이 ↓ <tspan font-weight="bold" fill="#4338ca">② 흐름도 (PHASE 1 → 2 → 3)</tspan></text>
+  <text x="540" y="612" text-anchor="middle" fill="#475569" font-size="19">위 구성요소가 일하는 순서를 펼친 것이 ↓ <tspan font-weight="bold" fill="#4338ca">② 흐름도</tspan></text>
 
-  <!-- ========== ② 흐름도 ========== -->
-  <rect x="0" y="664" width="1080" height="46" fill="#eef2ff"/>
-  <text x="40" y="695" fill="#4338ca" font-size="24" font-weight="bold">② 흐름도 — PHASE 1 → 2 → 3 (게이트 · 분기)</text>
+  <!-- ===== ② 흐름도 ===== -->
+  <rect x="0" y="644" width="1080" height="52" fill="#eef2ff"/>
+  <text x="40" y="679" fill="#4338ca" font-size="26" font-weight="bold">② 흐름도 — PHASE 1 → 2 → 3</text>
 
-  <!-- PHASE 1 라벨 -->
-  <text x="120" y="734" fill="#1d4ed8" font-size="16" font-weight="bold">PHASE 1 · 목표 정의</text>
+  <!-- PHASE 1 -->
+  <text x="80" y="728" fill="#1d4ed8" font-size="19" font-weight="bold">PHASE 1 · 목표 정의</text>
+  <rect x="80" y="740" width="920" height="54" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="80" y="740" width="13" height="54" rx="6" fill="#3b82f6"/>
+  <text x="540" y="774" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">① 맥락 분석 — 무엇을 · 왜 · 어디까지</text>
+  <line x1="540" y1="794" x2="540" y2="806" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 1 맥락 분석 -->
-  <rect x="120" y="744" width="840" height="44" rx="11" fill="#eff6ff" stroke="#93c5fd"/>
-  <rect x="120" y="744" width="12" height="44" rx="6" fill="#3b82f6"/>
-  <text x="540" y="772" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">① 맥락 분석 — 무엇을 · 왜 · 어디까지</text>
-  <line x1="540" y1="788" x2="540" y2="800" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <rect x="80" y="808" width="920" height="54" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="80" y="808" width="13" height="54" rx="6" fill="#3b82f6"/>
+  <text x="540" y="842" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">② 스무고개 — 20문답 기준 (일찍 또렷하면 단축)</text>
+  <line x1="540" y1="862" x2="540" y2="874" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 2 스무고개 -->
-  <rect x="120" y="802" width="840" height="44" rx="11" fill="#eff6ff" stroke="#93c5fd"/>
-  <rect x="120" y="802" width="12" height="44" rx="6" fill="#3b82f6"/>
-  <text x="540" y="830" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">② 스무고개 — 20문답 기준(단축 가능) · 방향 미결 시 다관점 토론</text>
-  <line x1="540" y1="846" x2="540" y2="858" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <rect x="80" y="876" width="920" height="54" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="80" y="876" width="13" height="54" rx="6" fill="#3b82f6"/>
+  <text x="540" y="910" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">③ AS-IS 조사 — 현재 상태 확인 (없으면 PO에 질문)</text>
+  <line x1="540" y1="930" x2="540" y2="942" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 3 AS-IS -->
-  <rect x="120" y="860" width="840" height="44" rx="11" fill="#eff6ff" stroke="#93c5fd"/>
-  <rect x="120" y="860" width="12" height="44" rx="6" fill="#3b82f6"/>
-  <text x="540" y="888" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">③ AS-IS 조사 — 현재 상태 확인 (없거나 모르면 PO에 질문)</text>
-  <line x1="540" y1="904" x2="540" y2="916" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <rect x="80" y="944" width="920" height="54" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="80" y="944" width="13" height="54" rx="6" fill="#3b82f6"/>
+  <text x="540" y="978" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">④ 목표서 — 목표 · KPI · 산출물 · 완료·검증</text>
+  <line x1="540" y1="998" x2="540" y2="1010" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 4 목표서 -->
-  <rect x="120" y="918" width="840" height="44" rx="11" fill="#eff6ff" stroke="#93c5fd"/>
-  <rect x="120" y="918" width="12" height="44" rx="6" fill="#3b82f6"/>
-  <text x="540" y="946" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">④ 목표서 작성 — 목표 · KPI · 산출물 · 완료·검증 기준</text>
-  <line x1="540" y1="962" x2="540" y2="974" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <!-- PO 승인 게이트 -->
+  <rect x="80" y="1012" width="920" height="58" rx="13" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <rect x="80" y="1012" width="13" height="58" rx="6" fill="#f59e0b"/>
+  <text x="540" y="1048" text-anchor="middle" fill="#92400e" font-size="21" font-weight="bold">⑤ PO 승인 게이트 ★ — 승인 없이 실행 금지</text>
+  <line x1="1000" y1="1041" x2="1056" y2="1041" stroke="#b91c1c" stroke-width="3" marker-end="url(#ahr)"/>
+  <text x="1052" y="1031" text-anchor="end" fill="#b91c1c" font-size="14" font-weight="bold">미승인→수정</text>
+  <line x1="540" y1="1070" x2="540" y2="1082" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 5 PO 승인 게이트 -->
-  <rect x="120" y="976" width="840" height="48" rx="12" fill="#fffbeb" stroke="#fcd34d"/>
-  <rect x="120" y="976" width="12" height="48" rx="6" fill="#f59e0b"/>
-  <text x="540" y="1006" text-anchor="middle" fill="#92400e" font-size="18" font-weight="bold">⑤ PO 승인 게이트 ★ — 승인 없이 실행 절대 금지</text>
-  <line x1="960" y1="1000" x2="1022" y2="1000" stroke="#b91c1c" stroke-width="3" marker-end="url(#ahr)"/>
-  <text x="1016" y="991" text-anchor="end" fill="#b91c1c" font-size="13" font-weight="bold">미승인 → 수정</text>
-  <line x1="540" y1="1024" x2="540" y2="1036" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
-
-  <!-- PHASE 2 라벨 -->
-  <text x="120" y="1058" fill="#6d28d9" font-size="16" font-weight="bold">PHASE 2 · 실행</text>
-
-  <!-- 6 MBO 저장 -->
-  <rect x="120" y="1068" width="840" height="44" rx="11" fill="#f5f3ff" stroke="#c4b5fd"/>
-  <rect x="120" y="1068" width="12" height="44" rx="6" fill="#8b5cf6"/>
-  <text x="540" y="1096" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">⑥ MBO 파일 저장 — 목표서 추적 (컴팩션·세션 교체 대비)</text>
-  <line x1="540" y1="1112" x2="540" y2="1124" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
-
-  <!-- 7 실행 -->
-  <rect x="120" y="1126" width="840" height="48" rx="12" fill="#f5f3ff" stroke="#c4b5fd"/>
-  <rect x="120" y="1126" width="12" height="48" rx="6" fill="#8b5cf6"/>
-  <text x="540" y="1156" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">⑦ 실행 — 방법 자율 (일반: 작업→검증→기록 / 필요 시 실행 패턴)</text>
+  <!-- PHASE 2 -->
+  <text x="80" y="1108" fill="#6d28d9" font-size="19" font-weight="bold">PHASE 2 · 실행</text>
+  <rect x="80" y="1120" width="920" height="54" rx="12" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <rect x="80" y="1120" width="13" height="54" rx="6" fill="#8b5cf6"/>
+  <text x="540" y="1154" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">⑥ MBO 파일 저장 — 목표 추적 (컴팩션 대비)</text>
   <line x1="540" y1="1174" x2="540" y2="1186" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- PHASE 3 라벨 -->
-  <text x="120" y="1208" fill="#15803d" font-size="16" font-weight="bold">PHASE 3 · 결과 보고</text>
+  <rect x="80" y="1188" width="920" height="58" rx="13" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <rect x="80" y="1188" width="13" height="58" rx="6" fill="#8b5cf6"/>
+  <text x="540" y="1224" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">⑦ 실행 — 방법 자율 (일반: 작업→검증→기록)</text>
+  <line x1="540" y1="1246" x2="540" y2="1258" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 8 목표 대비 + KPI -->
-  <rect x="120" y="1218" width="840" height="44" rx="11" fill="#f0fdf4" stroke="#86efac"/>
-  <rect x="120" y="1218" width="12" height="44" rx="6" fill="#16a34a"/>
-  <text x="540" y="1246" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">⑧ 목표 대비 + KPI 실측 — 달성 / 미달성 대조</text>
-  <line x1="540" y1="1262" x2="540" y2="1274" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <!-- PHASE 3 -->
+  <text x="80" y="1284" fill="#15803d" font-size="19" font-weight="bold">PHASE 3 · 결과 보고</text>
+  <rect x="80" y="1296" width="920" height="54" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <rect x="80" y="1296" width="13" height="54" rx="6" fill="#16a34a"/>
+  <text x="540" y="1330" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">⑧ 목표 대비 + KPI 실측 — 달성 / 미달성</text>
+  <line x1="540" y1="1350" x2="540" y2="1362" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 9 산출물·검증 게이트 -->
-  <rect x="120" y="1276" width="840" height="48" rx="12" fill="#fffbeb" stroke="#fcd34d"/>
-  <rect x="120" y="1276" width="12" height="48" rx="6" fill="#f59e0b"/>
-  <text x="540" y="1306" text-anchor="middle" fill="#92400e" font-size="18" font-weight="bold">⑨ 산출물·검증 게이트 ★ — 별도 주체 검증 (자기검증 금지)</text>
-  <line x1="960" y1="1300" x2="1022" y2="1300" stroke="#b91c1c" stroke-width="3" marker-end="url(#ahr)"/>
-  <text x="1016" y="1291" text-anchor="end" fill="#b91c1c" font-size="13" font-weight="bold">미달 → 재작업</text>
-  <line x1="540" y1="1324" x2="540" y2="1336" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
+  <!-- 산출물·검증 게이트 -->
+  <rect x="80" y="1364" width="920" height="58" rx="13" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <rect x="80" y="1364" width="13" height="58" rx="6" fill="#f59e0b"/>
+  <text x="540" y="1400" text-anchor="middle" fill="#92400e" font-size="21" font-weight="bold">⑨ 산출물·검증 게이트 ★ — 별도 주체 검증</text>
+  <line x1="1000" y1="1393" x2="1056" y2="1393" stroke="#b91c1c" stroke-width="3" marker-end="url(#ahr)"/>
+  <text x="1052" y="1383" text-anchor="end" fill="#b91c1c" font-size="14" font-weight="bold">미달→재작업</text>
+  <line x1="540" y1="1422" x2="540" y2="1434" stroke="#94a3b8" stroke-width="4" marker-end="url(#ah)"/>
 
-  <!-- 10 PO 최종 확인 -->
-  <rect x="120" y="1338" width="840" height="44" rx="11" fill="#f0fdf4" stroke="#86efac"/>
-  <rect x="120" y="1338" width="12" height="44" rx="6" fill="#16a34a"/>
-  <text x="540" y="1366" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="bold">⑩ PO 최종 확인 — "달성/미달성"으로 보고</text>
+  <rect x="80" y="1436" width="920" height="54" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <rect x="80" y="1436" width="13" height="54" rx="6" fill="#16a34a"/>
+  <text x="540" y="1470" text-anchor="middle" fill="#0f172a" font-size="21" font-weight="bold">⑩ PO 최종 확인 — "달성 / 미달성"으로 보고</text>
 
   <!-- 푸터 -->
-  <text x="540" y="1430" text-anchor="middle" fill="#64748b" font-size="16">게이트 2곳: ⑤ PO 승인 · ⑨ 산출물·검증  ·  색 = PHASE 구분(파랑 목표정의 · 보라 실행 · 초록 결과보고)</text>
-  <text x="540" y="1460" text-anchor="middle" fill="#94a3b8" font-size="14">"과정은 자율, 목표는 합의·필수" — github.com/SUNWOONGKYU/mbo-skill</text>
+  <text x="540" y="1536" text-anchor="middle" fill="#64748b" font-size="17">게이트 2곳: ⑤ PO 승인 · ⑨ 산출물·검증  ·  "과정은 자율, 목표는 합의·필수"</text>
 </svg>
