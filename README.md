@@ -242,6 +242,15 @@ Then use `/mbo` in Claude Code.
 
 ---
 
+## 이 스킬을 필수로 쓰는 짝 스킬
+
+- [SUNWOONGKYU/llm-dependent-agent-create](https://github.com/SUNWOONGKYU/llm-dependent-agent-create) (별칭 "에신") — LLM 의존형 에이전트 제조 공장
+- [SUNWOONGKYU/skill-create](https://github.com/SUNWOONGKYU/skill-create) — 스킬 제조 공장
+
+두 공장은 Phase 2 목표서·승인·결과 보고를 이 스킬에 위임하며, 미설치 시 자동 설치를 시도한다.
+
+---
+
 ## Diagrams & Deep Dive
 
 > **에세이:** [MBO 엔지니어링 — 메커니즘 사다리의 천장에서 만나는 것](docs/mbo-engineering.md)
